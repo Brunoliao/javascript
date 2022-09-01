@@ -1,0 +1,32 @@
+Conversão de medidas JS
+
+Para number:
+
+Number(n) - reconhece sozinho
+Number.parseInt - numeros inteiros
+Number.parseFloat - numeros quebrados
+
+Para String
+
+String(n)
+.toString(n)
+
+------------------------------------------
+O aluno ' + nome
+
+ou
+
+`O aluno ${nome}`
+-------------------------------------------
+var s = 'JavaScript' formatação STRINGS
+
+s.length // quantos caracteres a string tem
+s.toUpperCase() // tudo para 'MAIUSCULAS'
+s.toLowerCase() // tudo para 'minusculas'
+
+-------------------------------------------------------
+formatação numeros
+
+.toFixed(numero de casas)
+.toFixed(2).replace('.'',')
+.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})

@@ -1,0 +1,31 @@
+DOM == Document Object Model
+Árvore DOM
+    window(janela navegador)
+        location
+        Document
+            html
+                head
+                    meta
+                    title
+                    etc
+                body
+                    h1
+                    p
+                    p
+                    div
+        history
+    -----------------------------------
+    Acessar Arvore DOM por:
+    Marca
+        getElementsByTagName()
+    ID
+        getElementsById()
+    Nome
+        getElementsByName()
+    Classe
+        getElementsByClassName()
+    Seletor
+        querySelector()
+        querySelectorAll()
+ID == #
+class == .

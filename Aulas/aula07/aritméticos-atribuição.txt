@@ -1,0 +1,17 @@
+Ordem de Precedencia
+
+()  parenteses definir prioridade
+**  potencia
+%  sobra da divisão
+* /  multiplicação divisão
++ - mais menos 
+
+-----------------------------------
+Simplificando codigo
+
+n = n + 5 ---->  n += 5
+
+no caso de 1
+
+n = n + 1 ----> n++
+
